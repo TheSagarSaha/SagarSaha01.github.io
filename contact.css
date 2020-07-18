@@ -48,11 +48,26 @@ hr {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+.mail{
+    padding-left: 0px;
+    font-size: larger;
+}
+
 a {
     padding-left: 50px;
     color: aliceblue;
 }
 
 a:hover {
-    color: cadetblue;
+    color: brown;
 }
+.send {
+    font-size: larger;
+    background-color: transparent;
+    border-style: solid;
+    border-color: grey;
+    margin-left: 10px;
+    border-width: 0ch;
+    padding-left: 0%;
+}
+
