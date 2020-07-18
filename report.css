@@ -1,0 +1,41 @@
+body {
+    background-image: url('https://hdwallsource.com/img/2015/9/gradient-background-46249-47587-hd-wallpapers.jpg');
+}
+
+.report {
+    text-align: center;
+    color: black;
+    font-size: large;
+}
+
+.links {
+    text-align: center;
+    font-size: larger;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+a {
+    padding-left: 50px;
+    color: aliceblue;
+}
+
+a:hover {
+    color: cadetblue;
+}
+
+.btnsubmit {
+    background-color: transparent;
+    border: 2px;
+    border-style: dashed;
+    font-size: large;
+    color: chocolate;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+.btnsubmit:hover {
+    background-color: cornflowerblue;
+    color: blue;
+}
