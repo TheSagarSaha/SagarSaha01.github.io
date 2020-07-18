@@ -42,14 +42,12 @@ body {
 }
 
 .send {
-    height: 40px;
-    width: 85px;
+    font-size: larger;
     background-color: transparent;
-    border-style: double;
-    border-width: 5px;
-    font-size: medium; 
-    font-style: normal;
-    color: darkgray;
+    border-style: solid;
+    border-color: grey;
+    border-width: 0ch;
+    padding-left: 10;
 }
 
 .textbox {
