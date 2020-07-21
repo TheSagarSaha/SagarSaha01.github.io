@@ -1,45 +1,87 @@
+.header {
+    display: grid;
+    grid-template-columns: 10% 2fr;
+    grid-gap: 10px;
+}
+
+.img-top {
+    height: 60px;
+    width: 60px;
+    margin-left: 35px;
+    margin-top: 5px;
+}
+
+.links {
+    grid-column: 2;
+    text-align: right;
+    margin-top: 15px;
+    margin-right: 20px;
+    font-size: 22px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
 body {
-    background-image: url('https://hdwallsource.com/img/2015/9/gradient-background-46249-47587-hd-wallpapers.jpg');
+    background-color: rgb(247, 210, 156);
 }
 
 .report {
     text-align: center;
-    color: black;
-    font-size: large;
 }
 
-.links {
-    text-align: center;
-    font-size: larger;
+h1 {
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    color: darkslategray;
+}
+
+h3 {
+    font-size: 25px;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    color: teal;
 }
 
-a {
-    padding-left: 50px;
-    color: aliceblue;
+p {
+    color: chocolate;
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-a:hover {
-    color: cadetblue;
+li {
+    color: chocolate;
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.btnsubmit {
-    background-color: transparent;
-    border: 2px;
-    border-style: dashed;
+.message {
+    border-style: solid;
+    border-radius: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: large;
     color: chocolate;
-    padding-right: 10px;
-    padding-left: 10px;
-    padding-top: 7px;
-    padding-bottom: 7px;
 }
 
-.btnsubmit:hover {
+.message:hover {
     background-color: cornflowerblue;
     color: blue;
 }
 
-.mail{
-    padding-left: 0px;
+a {
+    color: crimson;
 }
+
+a:hover {
+    color: cornflowerblue;
+}
+
+hr {
+    border-style: none;
+    border-top: dotted;
+    border-width: 5px;
+    width: 5%;
+    color: gray;
+}
+
