@@ -24,6 +24,10 @@ body {
     font-family: 'Courier New', Courier, monospace;
 }
 
+.test {
+    padding-left: 0px;
+}
+
 .table {
     border-width: 2px;
     border-style: dashed;
