@@ -1,83 +1,100 @@
 body {
-    background-image: url('https://clarkwritesblog.files.wordpress.com/2017/04/color-gradient-background-wallpaper-2.jpg');
+    background-color: antiquewhite;
 }
 
-.homepage {
-    grid-template-columns: 750px 1fr;
-    grid-gap: 10px;
+.header {
     display: grid;
-    margin-top: 8px;
-    margin-left: 20px;
-    margin-right: 20px;
-    font-size: large;
-    font-style: inherit;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: burlywood;
+    grid-template-columns: 10% 2fr;
+    grid-gap: 10px;
 }
 
-.introduction {
-    text-align: center;
-    grid-column: 1/2;
-}
-
-.picture {
-    border-radius: 50%;
-    width: 200px;
-    height: 200px;
-    margin-left: 50px;
-    grid-column: 1/2;
-}
-
-.text {
-    height: 50px;
-    width: 300px;
-    background-color: transparent;
-    border-style: dashed;
-    border-width: 5px;
-    font-size: medium;
-    text-align: center;
-    color: aqua;
-    border-color: cadetblue;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.send {
-    font-size: larger;
-    background-color: transparent;
-    border-style: solid;
-    border-color: grey;
-    border-width: 0ch;
-    padding-left: 10;
-}
-
-.textbox {
-    text-align: center;
-    grid-column: 1/2;
-}
-
-button:hover {
-    color: cyan;
-    background-color: cadetblue;
-}
-
-.tom-jerry {
-    grid-column: 2/2;
-    grid-row: 1/1;
-    height: 550px;
-    width: 370px;
+.img-top {
+    height: 60px;
+    width: 60px;
+    margin-left: 35px;
+    margin-top: 5px;
 }
 
 .links {
+    grid-column: 2;
+    text-align: right;
+    margin-top: 15px;
+    margin-right: 20px;
+    font-size: 22px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.table {
+    border-width: 2px;
+    border-style: dashed;
+    border-spacing: 10px;
+    border-radius: 20px;
     text-align: center;
-    font-size: larger;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.homepage {
+    text-align: center;
+}
+
+.sagar-img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+hr {
+    border-style: none;
+    border-top: dotted;
+    border-width: 5px;
+    width: 5%;
+    border-color: cadetblue;
+}
+
+h1 {
+    color: lightsalmon;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h2 {
+    color: cadetblue;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h4 {
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+p {
+    padding-left: 15%;
+    padding-right: 15%;
+    font-size: large;
+    font-style: inherit;
+    font-family: Georgia, serif;
+}
+
+.message {
+    border-style: solid;
+    padding: 15px;
+    border-radius:100px;
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.message:hover {
+    background-color: cornflowerblue;
+    color: blue;
 }
 
 a {
-    padding-left: 50px;
-    color: aliceblue;
+    color: coral;
+    padding-left: 11px;
 }
 
 a:hover {
-    color: cadetblue;
+    color: blueviolet;
 }
