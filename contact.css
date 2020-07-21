@@ -1,73 +1,91 @@
 body {
-    background-image: url('https://www.hdwallpapers.in/download/gradient_abstract_vivo_v9_stock-HD.jpg');
+    background-color: aqua;
 }
 
-.contact-page {
+.header {
+    display: grid;
+    grid-template-columns: 10% 2fr;
+    grid-gap: 10px;
+}
+
+.img-top {
+    height: 60px;
+    width: 60px;
+    margin-left: 35px;
+    margin-top: 5px;
+}
+
+.links {
+    grid-column: 2;
+    text-align: right;
+    margin-top: 15px;
+    margin-right: 20px;
+    font-size: 22px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.contact {
     text-align: center;
-    font-size: large;
-    font-family: Arial, Helvetica, sans-serif;
-    color: black;
+}
+
+h1 {
+    font-size: 40px;
+    font-style: inherit;
+    font-family: 'Courier New', Courier, monospace;
+    color: chocolate;
+}
+
+h2 {
+    font-size: 25px;
+    font-style: initial;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: cadetblue;
+}
+
+h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-left: 8%;
+    padding-right: 8%;
+    font-style: unset;
 }
 
 hr {
-    border-style: dashed;
+    border-style: none;
+    border-top: dotted;
+    border-width: 5px;
+    width: 5%;
+    color: gray;
 }
 
-.input-box {
-    background-color: transparent;
+.message {
     border-style: solid;
-    border-width: 3px;
-    border-color: cadetblue;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: larger;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: cornflowerblue;
 }
 
-.btnsubmit {
-    background-color: transparent;
-    border: 2px;
-    border-style: dashed;
-    font-size: large;
-    color: aquamarine;
-    padding-right: 10px;
-    padding-left: 10px;
-    padding-top: 7px;
-    padding-bottom: 7px;
-}
-
-.btnsubmit:hover {
-    background-color: aqua;
-    color: dimgrey;
+.message:hover {
+    background-color: blueviolet;
+    color: darkblue;
 }
 
 .table {
     margin-left: auto;
     margin-right: auto;
-}
-
-.links {
+    border-spacing: 10px;
+    border-style: solid;
+    border-radius: 30px;
     text-align: center;
-    font-size: larger;
+    font-size: large;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-.mail{
-    padding-left: 0px;
-    font-size: larger;
-}
-
 a {
-    padding-left: 50px;
-    color: aliceblue;
+    color: blueviolet;
 }
 
 a:hover {
-    color: brown;
+    color: orangered;;
 }
-.send {
-    font-size: larger;
-    background-color: transparent;
-    border-style: solid;
-    border-color: grey;
-    margin-left: 10px;
-    border-width: 0ch;
-    padding-left: 0%;
-}
-
