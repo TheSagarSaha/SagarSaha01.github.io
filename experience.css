@@ -1,0 +1,59 @@
+.navlinks {
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    padding: 10px;
+
+}
+
+.navlinks:hover {
+    color: blue;
+}
+
+.first-section {
+    text-align: center;
+}
+
+.section-two {
+    background-color: darkkhaki;
+    text-align: center;
+}
+
+.footer {
+    background-color: darkcyan;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    line-height: 2;
+}
+
+.footer-links {
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+h1 {
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 50px;
+}
+
+h2 {
+    padding-left: 15%;
+    padding-right: 15%;
+    font-family: 'Walter Turncoat', cursive;
+}
+
+h3 {
+    padding: 5% 15%;
+    font-family: 'Walter Turncoat', cursive;
+}
+
+h5 {
+    padding: 0% 15%;
+    font-family: 'Itim', cursive;
+}
+
+.css-table {
+    font-family: 'Varela Round', sans-serif;
+}
+
