@@ -74,7 +74,8 @@ body {
 
 .code {
     float: right;
-    margin-left: 15px;
+    margin-top: 30px;
+    margin-left: 35px;
 }
 
 .images {
@@ -97,18 +98,18 @@ body {
 .contact {
     margin: auto;
     border-style: solid;
-    padding: 10px 40px;
-    background-color: #45b29a;
-    color: #1b7f69;
+    padding: 10px 20px;
+    background-color: orange;
+    color: darkslategrey;
     border-radius: 8px;
-    font-size: 25px;
+    font-size: 15px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     transition: 0.5s;
 }
 
 .contact:hover {
-    background-color: rgb(2, 192, 192); 
-    color: darkcyan;
+    background-color: red;
+    color: cyan;
     text-decoration: none;
 }
 
