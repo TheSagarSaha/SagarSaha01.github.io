@@ -64,16 +64,17 @@ body {
 
 .lion {
     float: left;
-    margin-right: 20px;
-    margin-left: 10px;
+    padding-right: 5px;
 }
 
 .edit {
     float: left;
+    
 }
 
 .code {
     float: right;
+    margin-left: 15px;
 }
 
 .images {
