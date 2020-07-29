@@ -1,51 +1,114 @@
 body {
-    background-color: antiquewhite;
+    margin: 0;
 }
 
-.header {
-    display: grid;
-    grid-template-columns: 10% 2fr;
-    grid-gap: 10px;
+.navlinks {
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    padding: 10px;
+
 }
 
-.img-top {
-    height: 60px;
-    width: 60px;
-    margin-left: 35px;
-    margin-top: 5px;
+.navlinks:hover {
+    color: blue;
 }
 
 .links {
-    grid-column: 2;
-    text-align: right;
-    margin-top: 15px;
-    margin-right: 20px;
-    font-size: 22px;
-    font-family: 'Courier New', Courier, monospace;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: larger;
+    color: cornflowerblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.test {
-    padding-left: 0px;
-}
-
-.table {
-    border-width: 2px;
-    border-style: dashed;
-    border-spacing: 10px;
-    border-radius: 20px;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.homepage {
+.section-one {
+    background-color: lavender;
     text-align: center;
 }
 
 .sagar-img {
+    height: 180px;
     border-radius: 50%;
-    width: 150px;
-    height: 150px;
+    margin-top: 2%;
+    float: left;
+}
+
+.intro {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hello {
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.about {
+    padding-right: 20%;
+    padding-left: 20%;
+}
+
+
+.socialize {
+    text-align: center;
+}
+
+.web {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.lion {
+    float: left;
+    margin-right: 20px;
+    margin-left: 10px;
+}
+
+.edit {
+    float: left;
+}
+
+.code {
+    float: right;
+}
+
+.images {
+    padding-left: 5px;
+}
+
+.footer {
+    background-color: darkcyan;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    line-height: 2;
+}
+
+.footer-links {
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.contact {
+    margin: auto;
+    border-style: solid;
+    padding: 10px 40px;
+    background-color: #45b29a;
+    color: #1b7f69;
+    border-radius: 8px;
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    transition: 0.5s;
+}
+
+.contact:hover {
+    background-color: rgb(2, 192, 192); 
+    color: darkcyan;
+    text-decoration: none;
 }
 
 hr {
@@ -53,52 +116,36 @@ hr {
     border-top: dotted;
     border-width: 5px;
     width: 5%;
-    border-color: cadetblue;
+    color: gray;
 }
 
 h1 {
-    color: lightsalmon;
-    font-size: 40px;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Pacifico', cursive;
+    font-size: 50px;
+}
+
+h1:hover {
+    color: chocolate;
 }
 
 h2 {
-    color: cadetblue;
-    font-size: 25px;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Fredoka One', cursive;
 }
 
-h4 {
-    font-size: large;
-    font-family: 'Times New Roman', Times, serif;
+h3 {
+    font-family: 'Black Ops One', cursive;
+}
+
+h5 {
+    line-height: 1.5;
+    font-family: 'Varela Round', sans-serif;
+}
+
+h6 {
+    margin-bottom: 0;
 }
 
 p {
-    padding-left: 15%;
-    padding-right: 15%;
-    font-size: large;
-    font-style: inherit;
-    font-family: Georgia, serif;
-}
-
-.message {
-    border-style: solid;
-    padding: 15px;
-    border-radius:100px;
-    font-size: large;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-.message:hover {
-    background-color: cornflowerblue;
-    color: blue;
-}
-
-a {
-    color: coral;
-    padding-left: 11px;
-}
-
-a:hover {
-    color: blueviolet;
+    font-family: 'Indie Flower', cursive;
+    font-size: 25px;
 }
