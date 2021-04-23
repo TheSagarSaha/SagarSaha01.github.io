@@ -12,3 +12,11 @@ console.log('%cIf you know exactly what you are doing, then you should come join
 var style3 = 'color: cyan; font-size:20px;';
 console.log('%cELSE GO BACK TO SAFETY ☠ ☠ ☠', style3)
 
+$(document).ready(function() {
+  $('a[href*=\\#]').on('click', function(e){
+      e.preventDefault();
+      $('html, body').animate({
+          scrollTop : $(this.hash).offset().top
+      }, 500);
+  });
+});
