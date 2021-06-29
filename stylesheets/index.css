@@ -1,5 +1,44 @@
+/* ROOT */
+
 body {
     margin: 0;
+}
+
+h1 {
+    font-family: 'Cabin Sketch', cursive;
+    font-size: 3.5rem;
+}
+
+h2, h3 {
+    font-family: 'Gugi', cursive;
+}
+
+h4 {
+    font-family: 'Lacquer', cursive;
+  }
+
+  
+hr {
+    border-style: none;
+    border-top: dotted;
+    border-width: 5px;
+    width: 8%;
+    color: gray;
+    margin-left: auto
+}
+
+p {
+    font-family: 'Indie Flower', cursive;
+    font-size: 1.5rem;
+}
+
+/* HOME */
+
+.nav-img {
+    height: 50px; 
+    margin-right: 10px;
+    background-color: #00c9ff;
+    border-radius: 50%;
 }
 
 .heading {
@@ -28,57 +67,6 @@ body {
 .about {
     padding: 0% 15% 5%;
     text-align: center;
-}
-
-hr {
-    border-style: none;
-    border-top: dotted;
-    border-width: 5px;
-    width: 8%;
-    color: gray;
-    margin-left: auto
-}
-
-p {
-    font-family: 'Indie Flower', cursive;
-    font-size: 1.5rem;
-}
-
-h1 {
-    font-family: 'Cabin Sketch', cursive;
-    font-size: 3.5rem;
-}
-
-h2,
-h3 {
-    font-family: 'Gugi', cursive;
-}
-
-.socialize {
-    padding: 7% 15% 7% 20%;
-    text-align: center;
-    background-color: white;
-}
-
-.skills {
-    padding: 5% 0%;
-}
-
-#socialize .description {
-    margin-top: 25px;
-}
-
-.footer {
-    background-color: rgb(172, 221, 222);
-    padding-top: 50px;
-    padding-bottom: 50px;
-    text-align: center;
-    line-height: 2;
-}
-
-.footer-links {
-    padding-left: 2%;
-    padding-right: 2%;
 }
 
 @media (max-width: 640px) {
@@ -145,6 +133,104 @@ h3 {
     }
 }
 
+.socialize {
+    padding: 7% 15% 7% 20%;
+    text-align: center;
+    background-color: white;
+}
+
+.skills {
+    padding: 5% 0%;
+}
+
+.description {
+    margin-top: 25px;
+}
+
+/* CONTACT */
+
+.work {
+    text-align: center;
+    background-color: blanchedalmond;
+  }
+  
+  .team-work {
+    margin-top: 20px;
+  }
+  
+  .coffee {
+    text-align: center;
+    background-color: black;
+    color: rgb(143, 100, 60);
+  }
+  
+  .coffee-img {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-right: 25px;
+    float: left;
+  }
+  
+  .contact-coffee {
+    width: 50%;
+    margin: auto;
+  }
+  
+  .socialize {
+    text-align: center;
+    margin: auto;
+  }
+  
+  
+  #work .description {
+    padding-left: 20%;
+    padding-right: 20%;
+  }
+  
+  
+  @media (max-width: 640px) {
+    .table td, .table th {
+      padding: 0rem;
+      vertical-align: top;
+      border-top: 1px solid #dee2e6;
+    }
+  }
+
+/* EXPERIENCE */
+
+.first-section {
+    text-align: center;
+  }
+  
+  .section-two {
+    background-color: bisque;
+    text-align: center;
+  }
+  
+  #experience h1 {
+    font-size: 50px;
+  }
+  
+  #experience h2 {
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+  
+  #experience h3 {
+    padding: 5% 15%;
+  }
+  
+  #experience h5 {
+    padding: 0% 15%;
+  }
+  
+  .css-table {
+    font-family: 'Varela Round', sans-serif;
+  }
+  
+
+/* PORTFOLIO */
+
 .portfolio {
     text-align: center;
     width: 80%;
@@ -200,3 +286,28 @@ h3 {
     }
 
 }
+
+/* FOOTER */
+
+.footer {
+    background-color: rgb(172, 221, 222);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    line-height: 2;
+}
+
+.footer-links {
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.fab, .fas {
+    font-size: 27px;
+    color: royalblue
+}
+
+.fab:hover, .fas:hover {
+    color: darkblue;
+}
+
