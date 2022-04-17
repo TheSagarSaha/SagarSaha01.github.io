@@ -62,9 +62,9 @@
                 <h4>Sagar Saha</h4>
             </div>
             <div class="links">
-                <h5><a target="_blank" href="#home">Home</a></h5>
-                <h5><a target="_blank" href="#experience">Experience</a></h5>
-                <h5><a target="_blank" href="#portfolio">Portfolio</a></h5>
+                <h5><a onclick="resetHref();" href="#home">Home</a></h5>
+                <h5><a onclick="resetHref();" href="#experience">Experience</a></h5>
+                <h5><a onclick="resetHref();" href="#portfolio">Portfolio</a></h5>
             </div>
         </div>
     </nav>
@@ -86,7 +86,7 @@
         <div id="carouselSlidesOnly" class="carousel slide" data-ride="carousel" data-interval="2000">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <h1>Web Developer</h1>
+                    <h1>Web Designer</h1>
                 </div>
                 <div class="carousel-item">
                     <h1>Computer Programmer</h1>
@@ -402,7 +402,12 @@
         <br><br>
         <h6>TheSagarSaha © TwentyTwentyTwo</h6>
     </div>
-    
+
+    <script>
+        function resetHref() {
+            location.hash = '';
+        }
+    </script>    
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="index.js"></script>

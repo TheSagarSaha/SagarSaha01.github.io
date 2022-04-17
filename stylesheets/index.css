@@ -1,5 +1,28 @@
 /* ROOT */
 
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: transparent; 
+  }
+   
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+    border-radius: 50px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+
+  ::selection {
+    background:#00c9ff;
+    color: white;
+    border-radius: 10px;
+  }
+
 html {
     scroll-behavior: smooth;
 }
@@ -265,6 +288,7 @@ nav a {
 /* EXPERIENCE */
 
 .first-section {
+    padding-top: 8%;
     text-align: center;
 }
 
@@ -303,7 +327,7 @@ nav a {
     text-align: center;
     width: 90%;
     margin: auto auto 50px;
-    padding: 5% 3%;
+    padding: 8% 3% 5%;
 }
 
 .card {
