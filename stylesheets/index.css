@@ -1,5 +1,9 @@
 /* ROOT */
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 0;
 }
@@ -9,13 +13,12 @@ h1 {
     font-size: 3.5rem;
 }
 
-h2,
-h3 {
+h2, h3 {
     font-family: 'Gugi', cursive;
 }
 
 h4 {
-    font-family: 'Lacquer', cursive;
+    font-family: 'Nunito', sans-serif;
 }
 
 
@@ -35,11 +38,47 @@ p {
 
 /* HOME */
 
-.nav-img {
+nav {
+    position: fixed;
+    width: 100%;
+    margin-top: 20px;
+    padding: 1% 0%;
+    text-align: center;
+    z-index: 1000;
+}
+
+.box {
+    width: 50%;
+    background-color:cornflowerblue;
+    margin: auto;
+    padding: 10px 0px;
+    border-radius: 10px;
+}
+
+nav img {
     height: 50px;
-    margin-right: 10px;
-    background-color: #00c9ff;
-    border-radius: 50%;
+    border-radius: 10px;
+    margin-top: -10px;
+}
+
+nav h4 {
+    display: inline-block;
+    padding-top:10px;
+    margin-left: 10px;
+}
+
+nav h5 {
+    display: inline;
+    padding: 0% 1%;
+}
+
+nav a {
+    color: darkblue;
+}
+
+.links {
+    display: inline;
+    margin-left: 5%;
 }
 
 .heading {
@@ -91,6 +130,29 @@ p {
     }
 }
 
+@media (max-width: 1050px) {
+    nav {
+        position: fixed;
+        width: 100%;
+        margin-top: 0px;
+        padding: 0%;
+        text-align: center;
+        z-index: 1000;
+    }
+    nav h4 {
+        display: none;
+    }
+    nav img {
+        height: 40px;
+        border-radius: 10px;
+        margin-top: 0px;
+    }
+    .box {
+        width: 100%;
+        border-radius: 0px;
+    }
+}
+
 #container {
     height: 350px;
     display: flex;
@@ -99,6 +161,8 @@ p {
     overflow: hidden;
     position: relative;
     margin: auto;
+    padding-top: 20%;
+    padding-bottom: 15%;
 }
 
 .circle {
@@ -152,7 +216,7 @@ p {
 
 .work {
     text-align: center;
-    background-color: blanchedalmond;
+    background-color: aliceblue;
 }
 
 .team-work {
@@ -161,8 +225,8 @@ p {
 
 .coffee {
     text-align: center;
-    background-color: black;
-    color: rgb(143, 100, 60);
+    background-color: lightblue;
+    color: black;
 }
 
 .coffee-img {
@@ -190,7 +254,6 @@ p {
 
 
 @media (max-width: 640px) {
-
     .table td,
     .table th {
         padding: 0rem;
@@ -206,7 +269,7 @@ p {
 }
 
 .section-two {
-    background-color: bisque;
+    background-color: paleturquoise;
     text-align: center;
 }
 
@@ -220,7 +283,9 @@ p {
 }
 
 #experience h3 {
-    padding: 5% 15%;
+    padding-top: 4%;
+    padding-bottom: 1%;
+
 }
 
 #experience h5 {
@@ -268,6 +333,7 @@ p {
 
 #portfolio h5 {
     font-family:Georgia, 'Times New Roman', Times, serif;
+    text-decoration: underline;
 }
 
 #portfolio p {
@@ -312,13 +378,11 @@ p {
     padding-right: 2%;
 }
 
-.fab,
-.fas {
+.fab, .fas {
     font-size: 27px;
     color: royalblue
 }
 
-.fab:hover,
-.fas:hover {
+.fab:hover, .fas:hover {
     color: darkblue;
 }

@@ -11,25 +11,27 @@
     <meta property="og:description"
         content="Sagar Saha is a web developer, programmer and video editor. Currently located at Canada." />
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="sagarsaha.me" />
+    <meta property="og:url" content="sagarsaha.tech" />
     <meta property="og:image" content="images/sagar (2).jpg" />
     <meta name="twitter:card" content="summary_large_image">
+    <base href="index.html">
     <title>Sagar Saha</title>
-
 
     <!-- Bootstrap CDN Links -->
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 
-
-    <link rel="shortcut icon" type="image/png" href="images/sagar-circle-cropped.jpg">
+    <link rel="shortcut icon" type="image/png" href="images/sagar-saha-avatar.jpg">
 
     <!-- Google Fonts -->
 
     <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Gugi&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@500;600;700&display=swap" rel="stylesheet">
 
     <!-- Stylesheets -->
 
@@ -44,7 +46,7 @@
      Now that's called plagarism. If you copy my code for you own website,
      then you are legally required to give me credits for my work. The most
      simple way to do this is to right the following within comments tag:
-     "Inspired by: https://sagarsaha.me". Or if you do not want to give me
+     "Inspired by: https://sagarsaha.tech". Or if you do not want to give me
      any credits, then write a program that prints all numbers between 1 to N
      without using any loops and also without using stackoverflow help. 
      
@@ -52,28 +54,22 @@
 -->
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #00c9ff;">
-        <img class="nav-img" src="images/sagar-circle-cropped.jpg" alt="sagar img">
-        <a class="navbar-brand mr-auto" href="index.html">Sagar Saha</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
-            aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-            <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
-                <li class="nav-item">
-                    <a class="nav-link active" href="#home">Home </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#work">Contact</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#experience">Experience</a>
-                </li>
-            </ul>
+
+    <nav>
+        <div class="box">
+            <div style="display: inline;">
+                <img src="images/sagar-saha-avatar.jpg" alt="sagar img">
+                <h4>Sagar Saha</h4>
+            </div>
+            <div class="links">
+                <h5><a target="_blank" href="#home">Home</a></h5>
+                <h5><a target="_blank" href="#experience">Experience</a></h5>
+                <h5><a target="_blank" href="#portfolio">Portfolio</a></h5>
+            </div>
         </div>
     </nav>
-    <div class="page-body" id="home">
+
+    <div id="home" class="page-body">
 
         <div id="container">
             <div class="item">
@@ -108,16 +104,12 @@
             <hr class="intro-hr">
         </div>
 
-
         <div class="about">
             <h2 style="margin-bottom: 30px;">About Me!</h2>
 
-            <p>Hello! Welcome to my website! I'm Sagar and I love designing websites, write computer programs and
-                furthermore I'm a frontend web developer and I've designed a couple of websites including this one. I
-                also love coding and have a total points of 113 on DMOJ. In my spare time I like to listen to music and
-                edit videos. So far I have edited more than 50 videos with sound effects! </p>
+            <p>Hey! I'm Sagar and am glad you visited this site :) I love coding and listening to music during my free time. I spend a lot of time with front end web development and web design with HTML, CSS, JS and Figma. Along with web development, I also code in C++, Java, and Python. I have have done quite a few projects and constantly learning new things that come to my mind. I am a self taught developer and I'm excited to share more with you.  </p>
             <br>
-            <p>I am currently a student at Danforth Collegiate and Technical Institute enrolled in grade 12! </p>
+            <p>I am currently a student at Danforth Collegiate and Technical Institute enrolled in grade 12 trying to figure out what I can do with my life and trying not to waste it! </p>
             <br>
             <hr>
         </div>
@@ -136,40 +128,38 @@
             </div>
             <div class="col-md-6 description">
                 <h3>Design What You Want!</h3>
-                <h5>I've designed multiple websites including this one and I have over 1 year of experience!
+                <h5>I've designed multiple websites including this one and I have over 2 years of web design and web development experience!
                 </h5>
+
+                <img class="images" src="https://cdn.worldvectorlogo.com/logos/html-1.svg" alt="html"
+                    height="22px">
+
+                <img class="images" src="https://seeklogo.com/images/C/css-3-logo-023C1A7171-seeklogo.com.png"
+                    alt="css" height="22px">
+
+                <img class="images"
+                    src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png"
+                    alt="JS" height="23px">
 
                 <img class="images"
                     src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/1200px-Visual_Studio_Code_1.35_icon.svg.png"
                     alt="vs code" height="20px">
 
-                <img class="images" src="https://seeklogo.com/images/A/atom-logo-19BD90FF87-seeklogo.com.png" alt="atom"
-                    height="24px">
-
-                <img class="images" src="https://seeklogo.com/images/A/adobe-photoshop-logo-7B88D7B5AA-seeklogo.com.png"
-                    alt="photoshop" height="22px">
-
-                <img class="images"
-                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Adobe_Illustrator_CC_icon.svg/616px-Adobe_Illustrator_CC_icon.svg.png"
-                    alt="illustrator" height="22px">
-
-                <img class="images" src="https://myartworks.me/wp-content/uploads/2018/01/figmalogo.png" alt="Figma"
-                    height="27px">
+                <img class="images" src="https://myartworks.me/wp-content/uploads/2018/01/figmalogo.png" alt="Figma" height="27px">
 
             </div>
         </div>
         <div class="row skills">
             <div class="col-md-6 description">
                 <h3>Develop What You Need!</h3>
-                <h5>I love coding and solving problems. I have solved over 50 coding problems on DMOJ and have a total
-                    points of 113!</h5>
-                <img class="images" src="https://cdn.worldvectorlogo.com/logos/clion-1.svg" alt="clion" height="27px">
+                <h5>I love coding and solving problems. I have hands-on experience with C++, Python, and Java. I have also solved many coding problems with unique algorithms. </h5>
+                <img class="images" src="https://www.freeiconspng.com/thumbs/c-logo-icon/c--logo-icon-0.png" alt="c++" height="27px">
                 <img class="images"
-                    src="https://resources.jetbrains.com/storage/products/pycharm/img/meta/pycharm_logo_300x300.png"
-                    alt="pycharm" height="27px">
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1200px-Python-logo-notext.svg.png"
+                    alt="python" height="24px">
                 <img class="images"
-                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/480px-JavaScript-logo.png"
-                    alt="JavaScript" height="25px">
+                    src="https://www.blockachain.gr/wp-content/uploads/2018/03/java-coffee-cup-logo.png"
+                    alt="Java" height="32px">
                 <img class="images" src="https://www.jetbrains.com/company/brand/img/jetbrains_logo.png" alt="jetbrains"
                     height="27px">
             </div>
@@ -183,7 +173,7 @@
             </div>
             <div class="col-md-6 description">
                 <h3>Produce What You Like!</h3>
-                <h5>I've edited more than 50 videos with sound effects and have used professional softwares!</h5>
+                <h5>Along with coding, I also like editing videos, even though its not my best skill out there. I have edited many videos with effects!</h5>
                 <img class="images"
                     src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Adobe_Premiere_Pro_CC_icon.svg/1200px-Adobe_Premiere_Pro_CC_icon.svg.png"
                     alt="premier Pro" height="23px">
@@ -199,11 +189,12 @@
         </div>
         <br>
         <hr style="margin: auto;">
+        <br>
         <h3 style="margin-top: 30px;">Get in Touch!</h3>
         <h5>Get In Touch With What You Want.</h5>
         <br>
         <a class="btn btn-outline-primary" href="mailto:sagarsaha2004@gmail.com" role="button"> Get in Touch!</a>
-        <br><br>
+        <br><br><br>
         <hr style="margin: auto;"><br>
     </div>
 
@@ -232,7 +223,7 @@
                     <br>
                     <h4>I'm currently located in Toronto, Ontario, Canada</h4>
                     <br><br>
-                    <h6 style="color: cornflowerblue;">See Map Below.</h6>
+                    <h6 style="color: blue;">See Map Below.</h6>
                     <br><br>
                 </div>
             </div>
@@ -272,17 +263,13 @@
         </div>
         <div class="section-two">
             <h3>Web Design</h3>
-            <h5>I've designed a couple of websites including this one and have taken the <a
-                    href="https://www.londonappbrewery.com/"> App Brewery Course! </a> And I'm constantly learning about
-                new
-                languages like SCSS, EJS, SASS, and React.</h5>
-            <h3>Computer Programmer</h3>
-            <h5>I have solved more than 50 problems on <a href="https://www.dmoj.ca">DMOJ </a>and other platforms as
-                well.
-                And I have a total points of 113 on DMOJ.</h5>
+            <h5>I have mostly learned web design myself and with the help of online courses. I've designed  multiple websites including this one. It is worth mentioning that I have taken the <a target="_blank" href="https://www.londonappbrewery.com/"> App Brewery Course! </a> And I'm constantly learning about new languages like SCSS, EJS, SASS, and React. Along with front end, I also have experience with backend web development. I am familiar with and used MongoDB to save data in the server. </h5>
+
+            <h3>Programming Languages</h3>
+            <h5>I mainly code in C++, Python, and Java and mostly code in Python. I have solved many programming questions using unique algorithms. I have also participated in the University of Waterloo Junior and Senior CCC Contests. I am also solving some leetcode problems to expand my knowledge on programming languages. </h5>
+
             <h3>Video Editor</h3>
-            <h5>I love editing videos and have already edited more than 50 videos with sound effects and have used
-                professional softwares like Adobe Premier Pro and Filmora Wondershare!</h5>
+            <h5>I love editing videos and have already edited more than 50 videos with sound effects and have used professional softwares like Adobe Premier Pro and Filmora Wondershare!</h5>
             <br><br>
         </div>
 
@@ -290,7 +277,7 @@
 
     <div class="portfolio" id="portfolio">
         <h1>Portfolio</h1>
-        <h6 style="margin-bottom: 50px;">Here are all the past projects that I worked on. Some of these projects were created by using HTML, CSS, JS, Node, Python and other modules. This is a work in progess and more portfolio projects will soon be released. Stay Tuned for that!</h6>
+        <h6 style="margin-bottom: 50px;">Here are some of my past projects that I worked on, extracurricular activities that I took part in, and achievements. Some of these projects were created by using HTML, CSS, JS, Node, Python and other modules. This is a work in progess and more portfolio projects will soon be released. So stay tuned for that!</h6>
             <div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
                 <div class="card-header">
                     <h4>RecessHacks</h4>
@@ -351,19 +338,56 @@
             </div>
             <div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
                 <div class="card-header">
-                    <h4>Comming Soon!</h4>
+                    <h4>Computer Club</h4>
                 </div>
                 <hr class="line">
                 <div class="card-body">
-                    <h5 class="card-title">Comming Soon!</h5>
-                    <p class="card-text">Stay Tuned. More portfolio projects will soon be released as I am working with different projects all the time. </p>
+                    <h5 class="card-title">President</h5>
+                    <p class="card-text">Host weekly meetings and find unique ways to solve programs with effective algorithms and time complexcity.</p>
                 </div>
                 <div class="card-footer">
-                    <small>Will be Released Soon</small>
+                    <small>Extra-Curricular Activites</small>
                 </div>
             </div>
-            
-        
+            <div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
+                <div class="card-header">
+                    <h4>Rocketry Club</h4>
+                </div>
+                <hr class="line">
+                <div class="card-body">
+                    <h5 class="card-title">Engine & Launchpad Team</h5>
+                    <p class="card-text">Researching the different types of engines used in rockets and planning to launch a small-scaled rocket.</p>
+                </div>
+                <div class="card-footer">
+                    <small>Extra-Curricular Activites</small>
+                </div>
+            </div>
+            <div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
+                <div class="card-header">
+                    <h4>University of Waterloo</h4>
+                </div>
+                <hr class="line">
+                <div class="card-body">
+                    <h5 class="card-title">Certificate of Distinction</h5>
+                    <p class="card-text">Got a certificate of distinction in Fermat Math Contest in 2021.</p>
+                </div>
+                <div class="card-footer">
+                    <small>Achievements</small>
+                </div>
+            </div>
+            <div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
+                <div class="card-header">
+                    <h4>University of Toronto</h4>
+                </div>
+                <hr class="line">
+                <div class="card-body">
+                    <h5 class="card-title">Rotman Case Competition</h5>
+                    <p class="card-text">Got a certificate for being a first round finalists in Rotman Case Competition 2020. </p>
+                </div>
+                <div class="card-footer">
+                    <small>Achievements</small>
+                </div>
+            </div>
 
     </div>
 
@@ -376,9 +400,9 @@
         <a target="_blank" class="footer-links" href="https://github.com/TheSagarSaha"><i class="fab fa-github"></i></a>
         <a target="_blank" class="footer-links" href="mailto:sagarsaha2004@gmail.com"><i class="fas fa-envelope-open-text"></i></a>
         <br><br>
-        <h6>The Sagar Saha © TwentyTwentyOne</h6>
+        <h6>TheSagarSaha © TwentyTwentyTwo</h6>
     </div>
-
+    
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="index.js"></script>
