@@ -11,32 +11,31 @@
     <meta property="og:description"
         content="Sagar Saha is a web developer, programmer and video editor. Currently located at Canada." />
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="sagarsaha.tech" />
+    <meta property="og:url" content="https://thesagarsaha.github.io/me/" />
     <meta property="og:image" content="images/sagar (2).jpg" />
     <meta name="twitter:card" content="summary_large_image">
-    <base href="index.html">
     <title>Sagar Saha</title>
 
     <!-- Bootstrap CDN Links -->
 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="shortcut icon" type="image/png" href="images/sagar-saha-avatar.jpg">
 
     <!-- Google Fonts -->
 
-    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Gugi&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@500;600;700&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Gugi&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Walter+Turncoat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Chettan+2&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Della+Respira&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Copse&display=swap" rel="stylesheet">
 
     <!-- Stylesheets -->
 
-    <link rel="stylesheet" href="stylesheets/index.css">
-
+    <link rel="stylesheet" href="index.css">
     <script src="https://kit.fontawesome.com/1a2609c491.js" crossorigin="anonymous"></script>
 
 </head>
@@ -46,7 +45,7 @@
      Now that's called plagarism. If you copy my code for you own website,
      then you are legally required to give me credits for my work. The most
      simple way to do this is to right the following within comments tag:
-     "Inspired by: https://sagarsaha.tech". Or if you do not want to give me
+     "Inspired by: https://TheSagarSaha.github.io/me". Or if you do not want to give me
      any credits, then write a program that prints all numbers between 1 to N
      without using any loops and also without using stackoverflow help. 
      
@@ -62,19 +61,18 @@
                 <h4>Sagar Saha</h4>
             </div>
             <div class="links">
-                <h5><a onclick="resetHref();" href="#home">Home</a></h5>
-                <h5><a onclick="resetHref();" href="#experience">Experience</a></h5>
-                <h5><a onclick="resetHref();" href="#portfolio">Portfolio</a></h5>
+                <h5><a href="#home">Home</a></h5>
+                <h5><a href="#experience">Experience</a></h5>
+                <h5><a href="#portfolio">Portfolio</a></h5>
             </div>
         </div>
     </nav>
 
-    <div id="home" class="page-body">
+    <section id="home" class="page-body">
 
         <div id="container">
             <div class="item">
-                <img class="img-sagar" src="images/Sagar (2).jpg" alt="sagar"
-                    style="border-radius: 100%; height: 200px;">
+                <img class="img-sagar" src="images/Sagar (2).jpg" alt="sagar" style="border-radius: 100%; height: 200px;">
             </div>
             <div class="circle" style="animation-delay: 0s"></div>
             <div class="circle" style="animation-delay: 1s"></div>
@@ -86,19 +84,19 @@
         <div id="carouselSlidesOnly" class="carousel slide" data-ride="carousel" data-interval="2000">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <h1>Web Designer</h1>
+                    <h1>Web Developer</h1>
+                </div>
+                <div class="carousel-item">
+                    <h1>UI/UX Designer</h1>
+                </div>
+                <div class="carousel-item">
+                    <h1>Software Developer</h1>
                 </div>
                 <div class="carousel-item">
                     <h1>Computer Programmer</h1>
                 </div>
                 <div class="carousel-item">
                     <h1>Video Editor</h1>
-                </div>
-                <div class="carousel-item">
-                    <h1>Front-End Web Developer</h1>
-                </div>
-                <div class="carousel-item">
-                    <h1>Software Developer</h1>
                 </div>
             </div>
             <hr class="intro-hr">
@@ -107,16 +105,16 @@
         <div class="about">
             <h2 style="margin-bottom: 30px;">About Me!</h2>
 
-            <p>Hey! I'm Sagar and am glad you visited this site :) I love coding and listening to music during my free time. I spend a lot of time with front end web development and web design with HTML, CSS, JS and Figma. Along with web development, I also code in C++, Java, and Python. I have have done quite a few projects and constantly learning new things that come to my mind. I am a self taught developer and I'm excited to share more with you.  </p>
+            <p>Hey! I'm Sagar and am glad you visited this site :) I love coding and listening to music during my free time. I spend a lot of time with front end web development and web design with <span class="language"> HTML, CSS, JS and Figma </span>. Along with web development, I also code in <span class="language"> C++, Java, and Python </span>. I have have done quite a few projects and constantly learning new things that come to my mind. I am a self taught developer and I'm excited to share more with you. </p>
             <br>
-            <p>I am currently a student at Danforth Collegiate and Technical Institute enrolled in grade 12 trying to figure out what I can do with my life and trying not to waste it! </p>
+            <p>I graduated highschool as the Class of 2022 from <span class="school"> Danforth CTI </span> and am currently a undergraduate student studying <span class="school"> Computer Science @ York University</span>. Lets solve some leetcode using O(n)² time complexity :) </p>
             <br>
             <hr>
         </div>
 
-    </div>
+    </section>
 
-    <div class="socialize" id="socialize">
+    <section class="socialize" id="socialize">
         <h2>Lets Socialize</h2>
         <p>Get in Touch! I can Help</p>
         <br>
@@ -128,7 +126,7 @@
             </div>
             <div class="col-md-6 description">
                 <h3>Design What You Want!</h3>
-                <h5>I've designed multiple websites including this one and I have over 2 years of web design and web development experience!
+                <h5>I've designed multiple websites including this one and I have over 3 years of web design and web development experience!
                 </h5>
 
                 <img class="images" src="https://cdn.worldvectorlogo.com/logos/html-1.svg" alt="html"
@@ -152,7 +150,7 @@
         <div class="row skills">
             <div class="col-md-6 description">
                 <h3>Develop What You Need!</h3>
-                <h5>I love coding and solving problems. I have hands-on experience with C++, Python, and Java. I have also solved many coding problems with unique algorithms. </h5>
+                <h5>I love coding and solving problems. I have hands-on experience with <span class="language"> C++, Python, and Java</span>. I have also solved many coding problems with unique algorithms. </h5>
                 <img class="images" src="https://www.freeiconspng.com/thumbs/c-logo-icon/c--logo-icon-0.png" alt="c++" height="27px">
                 <img class="images"
                     src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1200px-Python-logo-notext.svg.png"
@@ -193,10 +191,10 @@
         <h3 style="margin-top: 30px;">Get in Touch!</h3>
         <h5>Get In Touch With What You Want.</h5>
         <br>
-        <a class="btn btn-outline-primary" href="mailto:sagarsaha2004@gmail.com" role="button"> Get in Touch!</a>
+        <a class="btn btn-outline-primary" href="mailto:sagarsaha2004@gmail.com" role="button"> Lets Make Something Unique!</a>
         <br><br><br>
         <hr style="margin: auto;"><br>
-    </div>
+    </section>
 
     <div class="work" id="work">
         <img class="team-work" src="https://cdn.pixabay.com/photo/2020/04/26/09/45/team-work-5094450_960_720.png" alt=""
@@ -262,14 +260,14 @@
             <br><br>
         </div>
         <div class="section-two">
-            <h3>Web Design</h3>
-            <h5>I have mostly learned web design myself and with the help of online courses. I've designed  multiple websites including this one. It is worth mentioning that I have taken the <a target="_blank" href="https://www.londonappbrewery.com/"> App Brewery Course! </a> And I'm constantly learning about new languages like SCSS, EJS, SASS, and React. Along with front end, I also have experience with backend web development. I am familiar with and used MongoDB to save data in the server. </h5>
+            <h3>Web Development</h3>
+            <h5>I have mostly learned web design myself and with the help of online courses. I've designed  multiple websites including this one. It is worth mentioning that I have taken the <a target="_blank" href="https://www.londonappbrewery.com/"> App Brewery Course! </a> And I'm constantly learning about new languages like <span class="language"> SCSS, EJS, SASS, and React</span>. Along with front end, I also have experience with backend web development. I am familiar with and used <span class="language">MongoDB</span> to save data in the server. </h5>
 
             <h3>Programming Languages</h3>
-            <h5>I mainly code in C++, Python, and Java and mostly code in Python. I have solved many programming questions using unique algorithms. I have also participated in the University of Waterloo Junior and Senior CCC Contests. I am also solving some leetcode problems to expand my knowledge on programming languages. </h5>
+            <h5>I mainly code in <span> C++, Python, and Java</span>. I have solved many programming questions using unique data structures and algorithms such as <span class="algo">Hash Tables, Linked Lists, Stacks and Queues, Arrays, and Graphs</span>. I have also participated in the <span class="school"> University of Waterloo </span>Junior and Senior CCC Contests. I am also solving some leetcode problems to expand my knowledge on programming languages. </h5>
 
             <h3>Video Editor</h3>
-            <h5>I love editing videos and have already edited more than 50 videos with sound effects and have used professional softwares like Adobe Premier Pro and Filmora Wondershare!</h5>
+            <h5>I love editing videos and have already edited more than 50 videos with sound effects and have used professional softwares like <span class="softwares"> Adobe Premier Pro and Filmora Wondershare</span>! Though it is not my best skill, I occationally edit videos for fun or for other educational purposes.</h5>
             <br><br>
         </div>
 
@@ -277,15 +275,15 @@
 
     <div class="portfolio" id="portfolio">
         <h1>Portfolio</h1>
-        <h6 style="margin-bottom: 50px;">Here are some of my past projects that I worked on, extracurricular activities that I took part in, and achievements. Some of these projects were created by using HTML, CSS, JS, Node, Python and other modules. This is a work in progess and more portfolio projects will soon be released. So stay tuned for that!</h6>
+        <h6 style="margin-bottom: 50px;">Here are some of my past projects that I worked on, extracurricular activities that I took part in, and achievements. These projects were created by using <span class="language"> HTML, CSS, JS, Expres JS, MongoDB, CockroachDB, Java, Python </span> and other front-end libraries. This is a work in progess and more portfolio projects will soon be released. So stay tuned for that!</h6>
             <div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
                 <div class="card-header">
-                    <h4>RecessHacks</h4>
+                    <h4>Recess Hacks</h4>
                 </div>
                 <hr class="line">
                 <div class="card-body">
                     <h5 class="card-title">Organizer</h5>
-                    <p class="card-text">Organized a hackathon for students in the Greater Toronto Area (GTA). Organized Events, Games and Workshops with other students from the TDSB.</p>
+                    <p class="card-text">Organized a hackathon for highschool students across Canada. Organized Events, Games and Workshops with other students from the TDSB.</p>
                 </div>
                 <div class="card-footer">
                     <small>View On: <a target="_blank" href="https://recesshacks.com"><i class="fas fa-external-link-alt"></i></a></small>
@@ -293,17 +291,32 @@
             </div>
             <div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
                 <div class="card-header">
-                    <h4>TeleHealth Care+</h4>
+                    <h4>Botnesium</h4>
+                </div>
+                <hr class="line">
+                <div class="card-body">
+                    <h5 class="card-title">Developer</h5>
+                    <p class="card-text">Designed an developed an interactive Discord Bot which can provide information about all the 118 elements from the Periodic Table and play games.</p>
+                </div>
+                <div class="card-footer">
+                    <small> View On: 
+                        <a target="_blank" href="https://github.com/TheSagarSaha/botnesium"><i class="fab fa-github"></i></a>
+                    </small>
+                </div>
+            </div>
+            <div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
+                <div class="card-header">
+                    <h4>Coinspire</h4>
                 </div>
                 <hr class="line">
                 <div class="card-body">
                     <h5 class="card-title">Front-End Developer</h5>
-                    <p class="card-text">Designed a telehealth platform where patients and doctors can connect together more efficiently and qucikly. There is no backend linked to it yet.</p>
+                    <p class="card-text">Designed an interactive website where users can collaborate with others to collectively contribute a single pixel to build up graphic art.</p>
                 </div>
                 <div class="card-footer">
                     <small> View On: 
-                        <a target="_blank" href="https://github.com/TheSagarSaha/quantahacks"><i class="fab fa-github"></i></a>
-                        <a target="_blank" href="https://thesagarsaha.github.io/quantahacks/"><i class="fas fa-external-link-alt"></i></a>
+                        <a target="_blank" href="https://github.com/TheSagarSaha/coinspire"><i class="fab fa-github"></i></a>
+                        <a target="_blank" href="https://coinpire2.nn.r.appspot.com/"><i class="fas fa-external-link-alt"></i></a>
                     </small>
                 </div>
             </div>
@@ -322,17 +335,17 @@
             </div>
             <div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
                 <div class="card-header">
-                    <h4>DMOJ</h4>
+                    <h4>Leet Code</h4>
                 </div>
                 <hr class="line">
                 <div class="card-body">
                     <h5 class="card-title">Programmer</h5>
-                    <p class="card-text">Solved about 50 problems on DMOJ using Python, C, and C++. All of the problems passed the test cases on DMOJ.</p>
+                    <p class="card-text">Constantly trying to solve problems using different algorithms and data structures to acheive the best time and space complexity.</p>
                 </div>
                 <div class="card-footer">
                     <small>View On: 
-                        <a target="_blank" href="https://github.com/TheSagarSaha/DMOJ-Problems"><i class="fab fa-github"></i></a>
-                        <a target="_blank" href="https://dmoj.ca/user/SagarSaha"><i class="fas fa-external-link-alt"></i></a>
+                        <a target="_blank" href="https://github.com/TheSagarSaha/leetcode"><i class="fab fa-github"></i></a>
+                        <a target="_blank" href="https://leetcode.com/TheSagarSaha"><i class="fas fa-external-link-alt"></i></a>
                     </small>
                 </div>
             </div>
@@ -343,7 +356,7 @@
                 <hr class="line">
                 <div class="card-body">
                     <h5 class="card-title">President</h5>
-                    <p class="card-text">Host weekly meetings and find unique ways to solve programs with effective algorithms and time complexcity.</p>
+                    <p class="card-text">Hosted weekly meetings and find unique ways to solve programs with effective algorithms and time complexcity.</p>
                 </div>
                 <div class="card-footer">
                     <small>Extra-Curricular Activites</small>
@@ -356,7 +369,7 @@
                 <hr class="line">
                 <div class="card-body">
                     <h5 class="card-title">Engine & Launchpad Team</h5>
-                    <p class="card-text">Researching the different types of engines used in rockets and planning to launch a small-scaled rocket.</p>
+                    <p class="card-text">Researched the different types of engines used in rockets, how they work, and their uses.</p>
                 </div>
                 <div class="card-footer">
                     <small>Extra-Curricular Activites</small>
@@ -382,7 +395,7 @@
                 <hr class="line">
                 <div class="card-body">
                     <h5 class="card-title">Rotman Case Competition</h5>
-                    <p class="card-text">Got a certificate for being a first round finalists in Rotman Case Competition 2020. </p>
+                    <p class="card-text">Got a certificate for being first round finalists in Rotman Case Competition 2020. </p>
                 </div>
                 <div class="card-footer">
                     <small>Achievements</small>
@@ -401,13 +414,7 @@
         <a target="_blank" class="footer-links" href="mailto:sagarsaha2004@gmail.com"><i class="fas fa-envelope-open-text"></i></a>
         <br><br>
         <h6>TheSagarSaha © TwentyTwentyTwo</h6>
-    </div>
-
-    <script>
-        function resetHref() {
-            location.hash = '';
-        }
-    </script>    
+    </div> 
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="index.js"></script>
@@ -425,4 +432,3 @@
 </body>
 
 </html>
-

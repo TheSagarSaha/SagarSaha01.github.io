@@ -2,26 +2,26 @@
 
 ::-webkit-scrollbar {
     width: 5px;
-  }
-  
-  ::-webkit-scrollbar-track {
-    background: transparent; 
-  }
-   
-  ::-webkit-scrollbar-thumb {
-    background: #888; 
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
     border-radius: 50px;
-  }
+}
 
-  ::-webkit-scrollbar-thumb:hover {
-    background: #555; 
-  }
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
 
-  ::selection {
-    background:#00c9ff;
+::selection {
+    background: #00c9ff;
     color: white;
     border-radius: 10px;
-  }
+}
 
 html {
     scroll-behavior: smooth;
@@ -44,6 +44,10 @@ h4 {
     font-family: 'Nunito', sans-serif;
 }
 
+p {
+    font-family: 'Walter Turncoat', cursive;
+    font-size: 1.5rem;
+}
 
 hr {
     border-style: none;
@@ -52,11 +56,6 @@ hr {
     width: 8%;
     color: gray;
     margin-left: auto
-}
-
-p {
-    font-family: 'Indie Flower', cursive;
-    font-size: 1.5rem;
 }
 
 /* HOME */
@@ -72,7 +71,7 @@ nav {
 
 .box {
     width: 50%;
-    background-color:cornflowerblue;
+    background-color: cornflowerblue;
     margin: auto;
     padding: 10px 0px;
     border-radius: 10px;
@@ -86,7 +85,7 @@ nav img {
 
 nav h4 {
     display: inline-block;
-    padding-top:10px;
+    padding-top: 10px;
     margin-left: 10px;
 }
 
@@ -132,50 +131,6 @@ nav a {
     text-align: center;
 }
 
-@media (max-width: 640px) {
-    .carousel-inner {
-        height: 140px;
-    }
-
-    .skills {
-        margin-bottom: 50px;
-    }
-
-    .intro-hr {
-        margin-top: 0px;
-        margin-bottom: 50px;
-        width: 8%;
-    }
-
-    h1 {
-        font-family: 'Cabin Sketch', cursive;
-        font-size: 2.5rem;
-    }
-}
-
-@media (max-width: 1050px) {
-    nav {
-        position: fixed;
-        width: 100%;
-        margin-top: 0px;
-        padding: 0%;
-        text-align: center;
-        z-index: 1000;
-    }
-    nav h4 {
-        display: none;
-    }
-    nav img {
-        height: 40px;
-        border-radius: 10px;
-        margin-top: 0px;
-    }
-    .box {
-        width: 100%;
-        border-radius: 0px;
-    }
-}
-
 #container {
     height: 350px;
     display: flex;
@@ -201,24 +156,6 @@ nav a {
 .item {
     z-index: 100;
     padding: 5px;
-}
-
-@keyframes scaleIn {
-    from {
-        transform: scale(.5, .5);
-        opacity: .5;
-    }
-
-    to {
-        transform: scale(2.5, 2.5);
-        opacity: 0;
-    }
-}
-
-@media (min-width: 640px) {
-    #container {
-        width: 600px;
-    }
 }
 
 .socialize {
@@ -275,20 +212,10 @@ nav a {
     padding-right: 20%;
 }
 
-
-@media (max-width: 640px) {
-    .table td,
-    .table th {
-        padding: 0rem;
-        vertical-align: top;
-        border-top: 1px solid #dee2e6;
-    }
-}
-
 /* EXPERIENCE */
 
 .first-section {
-    padding-top: 8%;
+    padding: 8% 15% 5%;
     text-align: center;
 }
 
@@ -320,7 +247,6 @@ nav a {
     font-family: 'Varela Round', sans-serif;
 }
 
-
 /* PORTFOLIO */
 
 .portfolio {
@@ -351,27 +277,28 @@ nav a {
 }
 
 #portfolio h4 {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Copse', serif;
     margin-bottom: 0;
 }
 
 #portfolio h5 {
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Baloo Chettan 2', cursive;
     text-decoration: underline;
+    font-size: 1.3rem;
 }
 
 #portfolio p {
-    font-family: serif;
+    font-family: 'Della Respira', serif;
     font-size: 1.2rem;
 }
 
-#portfolio .fas{
+#portfolio .fas {
     font-size: 15px;
     color: burlywood;
     margin-left: 10px;
 }
 
-#portfolio .fab{
+#portfolio .fab {
     font-size: 18px;
     color: burlywood;
     margin-left: 10px;
@@ -402,11 +329,109 @@ nav a {
     padding-right: 2%;
 }
 
-.fab, .fas {
+.fab,
+.fas {
     font-size: 27px;
     color: royalblue
 }
 
-.fab:hover, .fas:hover {
+.fab:hover,
+.fas:hover {
     color: darkblue;
+}
+
+/* Custom Colors */
+
+.language {
+    color: blue;
+}
+
+.school {
+    color: fuchsia;
+}
+
+.algo {
+    color: orangered
+}
+
+.softwares {
+    color:lightcoral
+}
+
+/* Media Selections */
+
+
+@media (max-width: 640px) {
+    .carousel-inner {
+        height: 140px;
+    }
+
+    .skills {
+        margin-bottom: 50px;
+    }
+
+    .intro-hr {
+        margin-top: 0px;
+        margin-bottom: 50px;
+        width: 8%;
+    }
+
+    h1 {
+        font-family: 'Cabin Sketch', cursive;
+        font-size: 2.5rem;
+    }
+}
+
+@media (max-width: 1050px) {
+    nav {
+        position: fixed;
+        width: 100%;
+        margin-top: 0px;
+        padding: 0%;
+        text-align: center;
+        z-index: 1000;
+    }
+
+    nav h4 {
+        display: none;
+    }
+
+    nav img {
+        height: 40px;
+        border-radius: 10px;
+        margin-top: 0px;
+    }
+
+    .box {
+        width: 100%;
+        border-radius: 0px;
+    }
+}
+
+@keyframes scaleIn {
+    from {
+        transform: scale(.5, .5);
+        opacity: .5;
+    }
+
+    to {
+        transform: scale(2.5, 2.5);
+        opacity: 0;
+    }
+}
+
+@media (min-width: 640px) {
+    #container {
+        width: 600px;
+    }
+}
+
+@media (max-width: 640px) {
+
+    .table td,
+    .table th {
+        padding: 0rem;
+        vertical-align: top;
+        border-top: 1px solid #dee2e6;
+    }
 }
