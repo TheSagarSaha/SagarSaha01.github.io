@@ -23,415 +23,164 @@
     border-radius: 10px;
 }
 
-html {
-    scroll-behavior: smooth;
-}
-
-body {
-    margin: 0;
+body, html {
+    height: 100%
 }
 
 h1 {
-    font-family: 'Cabin Sketch', cursive;
-    font-size: 3.5rem;
+    font-family: 'Sirin Stencil', cursive;
 }
-
-h2, h3 {
-    font-family: 'Gugi', cursive;
+h2 {
+    font-family: 'Rubik', sans-serif;
 }
-
 h4 {
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Love Ya Like A Sister', cursive;
+    font-family: 'Signika Negative', sans-serif;
 }
 
-p {
-    font-family: 'Walter Turncoat', cursive;
-    font-size: 1.5rem;
+a:hover {
+    text-decoration: none;
 }
 
 hr {
     border-style: none;
     border-top: dotted;
     border-width: 5px;
-    width: 8%;
+    width: 20%;
     color: gray;
-    margin-left: auto
-}
-
-/* HOME */
-
-nav {
-    position: fixed;
-    width: 100%;
-    margin-top: 20px;
-    padding: 1% 0%;
-    text-align: center;
-    z-index: 1000;
-}
-
-.box {
-    width: 50%;
-    background-color: cornflowerblue;
-    margin: auto;
-    padding: 10px 0px;
-    border-radius: 10px;
-}
-
-nav img {
-    height: 50px;
-    border-radius: 10px;
-    margin-top: -10px;
-}
-
-nav h4 {
-    display: inline-block;
-    padding-top: 10px;
-    margin-left: 10px;
-}
-
-nav h5 {
-    display: inline;
-    padding: 0% 1%;
-}
-
-nav a {
-    color: darkblue;
-}
-
-.links {
-    display: inline;
-    margin-left: 5%;
-}
-
-.heading {
-    padding: 0 15%;
-}
-
-.carousel {
-    padding: 1% 15% 0;
-}
-
-.page-body {
-    background-image: linear-gradient(#00c9ff, #39faeac2);
-    text-align: center;
-}
-
-.intro {
-    padding: 5% 5% 7% 15%;
-    margin-right: 0;
-}
-
-.intro-hr {
-    margin: 50px auto;
-    width: 10%;
-}
-
-.about {
-    padding: 0% 15% 5%;
-    text-align: center;
-}
-
-#container {
-    height: 350px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    overflow: hidden;
-    position: relative;
-    margin: auto;
-    padding-top: 20%;
-    padding-bottom: 15%;
-}
-
-.circle {
-    border-radius: 50%;
-    background-color: rgb(103, 61, 255);
-    width: 150px;
-    height: 150px;
-    position: absolute;
-    opacity: 0;
-    animation: scaleIn 4s infinite cubic-bezier(.36, .11, .89, .32);
-}
-
-.item {
-    z-index: 100;
-    padding: 5px;
-}
-
-.socialize {
-    padding: 7% 15% 7% 20%;
-    text-align: center;
-    background-color: white;
-}
-
-.skills {
-    padding: 5% 0%;
-}
-
-.description {
+    margin-left: auto;
     margin-top: 25px;
 }
 
-/* CONTACT */
-
-.work {
-    text-align: center;
-    background-color: aliceblue;
+main {
+    padding: 10%;
+    height: 100%;
+    background-image: url("images/headers_pictures/toronto.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.team-work {
-    margin-top: 20px;
+.row {
+    display: flex;
+}
+  
+.column {
+    flex: 50%;
 }
 
-.coffee {
-    text-align: center;
-    background-color: lightblue;
-    color: black;
-}
-
-.coffee-img {
-    margin-top: 30px;
-    margin-bottom: 30px;
-    margin-right: 25px;
-    float: left;
-}
-
-.contact-coffee {
-    width: 50%;
+.left {
     margin: auto;
+    padding-right: 5%;
+    text-align: right;
 }
 
-.socialize {
-    text-align: center;
-    margin: auto;
+.right {
+    text-align: left;
+    padding-left: 5%;
 }
 
-
-#work .description {
-    padding-left: 20%;
-    padding-right: 20%;
+.header_image {
+    width: 45%;
 }
 
-/* EXPERIENCE */
-
-.first-section {
-    padding: 8% 15% 5%;
+.experience, .projects, .awards, .about {
+    padding: 10% 7%;
     text-align: center;
 }
 
-.section-two {
-    background-color: paleturquoise;
-    text-align: center;
-}
-
-#experience h1 {
-    font-size: 50px;
-}
-
-#experience h2 {
-    padding-left: 15%;
-    padding-right: 15%;
-}
-
-#experience h3 {
-    padding-top: 4%;
-    padding-bottom: 1%;
-
-}
-
-#experience h5 {
-    padding: 0% 15%;
-}
-
-.css-table {
-    font-family: 'Varela Round', sans-serif;
-}
-
-/* PORTFOLIO */
-
-.portfolio {
-    text-align: center;
-    width: 90%;
-    margin: auto auto 50px;
-    padding: 8% 3% 5%;
+.about {
+    background-color:rgb(249, 244, 222);
 }
 
 .card {
     display: inline-table;
-    margin: 60px 30px;
-    box-shadow: 0px 0px 15px 5px rgba(16, 16, 16, 0.459);
-    color: burlywood;
+    margin: 1%;
+    box-shadow: 0px 0px 10px 2px rgba(125, 123, 123, 0.459);
 }
 
-.card-header, .card-body, .card-footer {
-    color: burlywood;
+.card-body {
+    width: 280px;
 }
 
-#portfolio .line {
-    margin: 0;
-    width: 100%;
-    border-style: none;
-    border-top-style: solid;
-    border-width: 3px;
-    color: burlywood;
+.internship-exp-sk {
+    width: 120px;
+    padding-bottom: 20px;
 }
 
-#portfolio h4 {
-    font-family: 'Copse', serif;
-    margin-bottom: 0;
+.internship-exp-bt {
+    width: 90px;
+    padding-bottom: 30px;
+    padding-top: 20px
 }
 
-#portfolio h5 {
-    font-family: 'Baloo Chettan 2', cursive;
-    text-decoration: underline;
-    font-size: 1.3rem;
+.internship-exp-rh {
+    width: 90px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    margin-top: 20px;
 }
 
-#portfolio p {
-    font-family: 'Della Respira', serif;
-    font-size: 1.2rem;
+.card-img-top {
+    height: 10rem;
 }
 
-#portfolio .fas {
-    font-size: 15px;
-    color: burlywood;
-    margin-left: 10px;
+.projects {
+    background-color: rgb(232, 243, 250);
 }
 
-#portfolio .fab {
-    font-size: 18px;
-    color: burlywood;
-    margin-left: 10px;
+.createdUsing {
+    padding: 1px 8px 2px;
+    border: 1px solid rgb(2, 129, 255);
+    border-radius: 5px;
+    color:rgb(2, 129, 255);
+    display: inline-table;
+    margin: 2px 1px;
+    transition: 0.3s;
 }
 
-
-#portfolio .fas:hover {
-    color: darksalmon;
+.createdUsing:hover {
+    background-color: rgb(2, 129, 255);
+    color: white
 }
 
-
-#portfolio .fab:hover {
-    color: darksalmon;
+.award-cards {
+    height: 7rem;
 }
 
-/* FOOTER */
+.normal-size {
+    width: 1rem !important;
+    height: 1rem !important;
+    margin: 0 0.2rem !important;
+}
 
-.footer {
-    background-color: rgb(172, 221, 222);
-    padding-top: 50px;
-    padding-bottom: 50px;
+.bi {
+    width: 5rem;
+    height: 5rem;
+    margin: 1rem;
+}
+
+footer {
+    padding:  3% 5%;
     text-align: center;
-    line-height: 2;
+    background-color:gainsboro;
 }
 
-.footer-links {
-    padding-left: 2%;
-    padding-right: 2%;
-}
-
-.fab,
-.fas {
-    font-size: 27px;
-    color: royalblue
-}
-
-.fab:hover,
-.fas:hover {
-    color: darkblue;
-}
-
-/* Custom Colors */
-
-.language {
-    color: blue;
-}
-
-.school {
-    color: fuchsia;
-}
-
-.algo {
-    color: orangered
-}
-
-.softwares {
-    color:lightcoral
-}
-
-/* Media Selections */
-
-
-@media (max-width: 640px) {
-    .carousel-inner {
-        height: 140px;
+@media (max-width: 885px) {
+    .row {
+        flex: none;
+        margin-top: 50%;
     }
-
-    .skills {
-        margin-bottom: 50px;
-    }
-
-    .intro-hr {
-        margin-top: 0px;
-        margin-bottom: 50px;
-        width: 8%;
-    }
-
-    h1 {
-        font-family: 'Cabin Sketch', cursive;
-        font-size: 2.5rem;
-    }
-}
-
-@media (max-width: 1050px) {
-    nav {
-        position: fixed;
+    .column {
+        flex: none;
         width: 100%;
-        margin-top: 0px;
-        padding: 0%;
+    } 
+    .left {
         text-align: center;
-        z-index: 1000;
     }
-
-    nav h4 {
-        display: none;
-    }
-
-    nav img {
-        height: 40px;
-        border-radius: 10px;
-        margin-top: 0px;
-    }
-
-    .box {
-        width: 100%;
-        border-radius: 0px;
-    }
-}
-
-@keyframes scaleIn {
-    from {
-        transform: scale(.5, .5);
-        opacity: .5;
-    }
-
-    to {
-        transform: scale(2.5, 2.5);
-        opacity: 0;
-    }
-}
-
-@media (min-width: 640px) {
-    #container {
-        width: 600px;
-    }
-}
-
-@media (max-width: 640px) {
-
-    .table td,
-    .table th {
-        padding: 0rem;
-        vertical-align: top;
-        border-top: 1px solid #dee2e6;
+    .right {
+        margin-top: 25px;
+        text-align: center;
+        padding-left: 0;
     }
 }
